@@ -1,0 +1,70 @@
+/* Page Background and Text */
+
+/* Header */
+header {
+    background-color: #ba55d3; /* Medium Orchid header */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #ba55d3; /* Medium Orchid footer */
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color:  rgb(230,230,250); /* Lavender with 70% opacity */
+    padding: 50px 20px;                     /* Same padding for all sections */
+    margin: 20px 0;
+}
+
+
+/* Buttons (for About Me, Achievements, Contacts) */
+.nav-btn {
+    background-color: rgb(221,160,221); /* Plum with some transparency */
+    color: #000000 ;           
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Button hover effect */
+.nav-btn:hover {
+    background-color: rgba(51, 51, 51, 0.8); /* Dark gray transparent hover */
+    color: #F4F4F4;
+}
+
+/* Headings */
+h1 {
+    font-size: 36px;
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+p {
+    font-size: 26px;
+    line-height: 1;
+    margin: 10px 0;
+}
+
+p2 {
+    font-size: 26px;
+    line-heigth: 1;
+    margin: 10px 0;
+}
+
+p3 {
+    font-size: 26px;
+    line-height: 1;
+    margin: 10px 0;
+}
