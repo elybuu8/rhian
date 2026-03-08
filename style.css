@@ -1,52 +1,33 @@
-/* ========================= */
-/* PAGE BACKGROUND & TEXT */
-/* ========================= */
-
+/* Page Background and Text */
 body{
     margin:0;
     font-family: Arial, sans-serif;
-    background-color:#fdf6ff;
-    color:#000;
 }
 
-/* ========================= */
-/* HEADER */
-/* ========================= */
-
+/* Header */
 header {
-    background-color: #ba55d3; /* Medium Orchid */
+    background-color: #ba55d3; /* Medium Orchid header */
     padding: 20px;
     text-align: center;
 }
 
-/* ========================= */
-/* FOOTER */
-/* ========================= */
-
+/* Footer */
 footer {
-    background-color: #ba55d3;
+    background-color: #ba55d3; /* Medium Orchid footer */
     padding: 20px;
     text-align: center;
 }
-
-/* ========================= */
-/* SECTION */
-/* ========================= */
 
 section {
-    background-color: rgba(230,230,250,0.7); /* Lavender with opacity */
+    background-color: rgb(230,230,250); /* Lavender */
     padding: 50px 20px;
-    margin: 20px;
-    border-radius: 10px;
+    margin: 20px 0;
 }
 
-/* ========================= */
-/* NAV BUTTONS */
-/* ========================= */
-
+/* Buttons */
 .nav-btn {
     background-color: rgb(221,160,221); /* Plum */
-    color: #000;           
+    color: #000000;           
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -54,18 +35,15 @@ section {
     text-decoration: none;
     display: inline-block;
     margin: 5px;
-    transition: 0.3s;
 }
 
+/* Button hover effect */
 .nav-btn:hover {
     background-color: rgba(51, 51, 51, 0.8);
     color: #F4F4F4;
 }
 
-/* ========================= */
-/* TEXT */
-/* ========================= */
-
+/* Headings */
 h1 {
     font-size: 36px;
     margin: 20px 0;
@@ -77,62 +55,47 @@ h2 {
 }
 
 p {
-    font-size: 20px;
-    line-height: 1.6;
+    font-size: 26px;
+    line-height: 1.5;
     margin: 10px 0;
 }
 
-/* ========================= */
 /* PROFILE CONTAINER */
-/* ========================= */
-
 .profile-container{
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
 }
 
-/* ========================= */
 /* PROFILE IMAGE */
-/* ========================= */
-
 .profile-pic{
-    width:180px;
-    height:180px;
-    border-radius:50%;
-    object-fit:cover;
-    border:4px solid white;
-    box-shadow:0 0 15px rgba(0,0,0,0.4);
-    transition:transform 0.3s ease;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    transition: transform 0.3s ease;
 }
 
+/* Hover effect */
 .profile-pic:hover{
-    transform:scale(1.05);
+    transform: scale(1.05);
 }
 
-/* ========================= */
 /* TABLET */
-/* ========================= */
-
-@media (max-width:900px){
+@media (max-width: 900px){
     .profile-pic{
-        width:140px;
-        height:140px;
+        width: 140px;
+        height: 140px;
     }
 }
 
-/* ========================= */
 /* MOBILE */
-/* ========================= */
-
-@media (max-width:600px){
+@media (max-width: 600px){
     .profile-pic{
-        width:110px;
-        height:110px;
-    }
-
-    p{
-        font-size:18px;
+        width: 110px;
+        height: 110px;
     }
 }
